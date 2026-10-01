@@ -1,0 +1,168 @@
+.nav-links a.active {
+    border-bottom: 2px solid #171145;
+}
+
+.about-hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(255,255,255,0.1));
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    color: #171145;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about-hero p {
+    font-size: 1.3rem;
+    color: #171145;
+}
+
+.about-intro {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+}
+
+.about-intro p {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+.about-why {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 3rem 2rem;
+}
+
+.about-why h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.why-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.why-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.2rem;
+    border-radius: 8px;
+}
+
+.why-icon {
+    color: #FF8C00;
+    font-size: 1.3rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.why-item p {
+    margin: 0;
+    line-height: 1.7;
+}
+
+.about-trusted {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+}
+
+.about-trusted h2 {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.about-trusted p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.about-services {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 3rem 2rem;
+}
+
+.about-services h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.service-item {
+    padding: 2rem;
+    border-radius: 10px;
+    border-top: 4px solid #171145;
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+.service-item h3 {
+    margin-bottom: 1rem;
+    color: #171145;
+}
+
+.service-item p {
+    line-height: 1.7;
+}
+
+.about-cta {
+    background-color: #171145;
+    color: #E6ACAC;
+    padding: 2.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-cta p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 0.9rem 2.5rem;
+    background-color: #FF8C00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #FF7F00;
+}
+
+@media (max-width: 768px) {
+    .about-hero h1 {
+        font-size: 2rem;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+}
